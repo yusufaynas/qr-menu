@@ -238,19 +238,22 @@ images: ["./kasetatlılar/alaçatı.jpg"]
 
     // TATLILAR - SÜTLÜ TATLILAR
     {id: 28, name: "Sütlaç", category: "sutlu_tatli", price: "90 TL", description: "Geleneksel, kaynamış sütlaç", images: ["./kasetatlılar/sütlaç.jpg"]},
-    {id: 30, name: "Bomba", category: "sutlu_tatli", price: "85 TL", description: "Çikolata ve krem dolgulu bomba tatlı", images: ["./sütlütatlılar/bomba.jpg"]},
     {id: 31, name: "Karamelli Trileçe", category: "sutlu_tatli", price: "95 TL", description: "Karamelli ve frambuazlı trileçe tatlısı", images: ["./sütlütatlılar/karamellitrileçe.jpg"]},
     {id: 53, name: "Frambuazlı Trileçe", category: "sutlu_tatli", price: "95 TL", description: "Frambuazlı üç katmanlı lezzetli trileçe", images: ["./sütlütatlılar/frambuazlıtrileçe.jpg"]},
-    {id: 54, name: "Sütlü Tatlılar", category: "sutlu_tatli", price: "90 TL", description: "Çeşitli sütlü tatlı seçenekleri", images: ["./sütlütatlılar/saütlütatlılar.jpg"]},
     {id: 55, name: "Soğuk Baklava", category: "sutlu_tatli", price: "100 TL", description: "Şerbetli, sütlü soğuk baklava tatlı", images: ["./sütlütatlılar/soğukbaklava.jpg"]},
     {id: 56, name: "Süt Dilimi", category: "sutlu_tatli", price: "85 TL", description: "Lezzetli süt dolgulu dilim tatlı", images: ["./sütlütatlılar/sütdilimi.jpg"]},    {id: 57, name: "Kazandibi", category: "sutlu_tatli", price: "100 TL", description: "Tat kakaolu kazandibi tatlı", images: ["./kasetatlılar/kazandibi.jpg"]},
     {id: 58, name: "Keşkül", category: "sutlu_tatli", price: "100 TL", description: "Pistachio ve fındıklı keşkül tatlı", images: ["./kasetatlılar/Keşkül.jpg"]},
     {id: 59, name: "Magnolya", category: "sutlu_tatli", price: "100 TL", description: "Çilekli ve çikolatalı magnolya tatlı", images: ["./kasetatlılar/magnolya.jpg"]},
     {id: 60, name: "Kadayıflı Muhallebi", category: "sutlu_tatli", price: "100 TL", description: "Kadayıflı ve muhallebi kase tatlı", images: ["./kasetatlılar/kadayıflımuhallebi.jpg"]},
+    {id: 61, name: "Alaçatı Muallabesi", category: "sutlu_tatli", price: "100 TL", description: "Şerbetli alaçatı muallabesi kase tatlı", images: ["./kasetatlılar/alaçatı.jpg"]},
+    {id: 62, name: "Kırmızı Kadife", category: "sutlu_tatli", price: "100 TL", description: "Kırmızı kadife muhallebi ve çikolatalı sos ile hazırlanan kase tatlı", images: ["./kasetatlılar/kadife.jpg"]},
+    {id: 63, name: "Senatör", category: "sutlu_tatli", price: "100 TL", description: "Antep fıstıklı muhallebi ve çikolatalı sos ile hazırlanan senatör tatlı", images: ["./kasetatlılar/senatör.jpg"]},
+    {id: 64, name: "Kazandibi", category: "sutlu_tatli", price: "100 TL", description: "Kazandibi tatlı", images: ["./kasetatlılar/kazandibi.jpg"]},
+
 
     // ŞERBETLİ TATLILAR
     {id: 32, name: "Baklava", category: "serbetli_tatli", price: "150 TL", description: "Cevizli, şerbetli baklavalar", images: ["data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 300 200'%3E%3Crect fill='%23DAA520' width='300' height='200'/%3E%3Cpath d='M 100 60 L 200 60 L 180 140 L 120 140 Z' fill='%238B4513'/%3E%3Ctext x='150' y='110' font-size='35' fill='%23FFD700' text-anchor='middle'%3E🏆%3C/text%3E%3C/svg%3E"]},
-    {id: 33, name: "Soğuk Baklava", category: "serbetli_tatli", price: "160 TL", description: "Şerbetli, sütlü tatlı", images: ["data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 300 200'%3E%3Crect fill='%23FFD700' width='300' height='200'/%3E%3Cpath d='M 100 60 L 200 60 L 180 140 L 120 140 Z' fill='%23DAA520'/%3E%3Ctext x='150' y='110' font-size='40' fill='white' text-anchor='middle'%3E❄️%3C/text%3E%3C/svg%3E"]},
+    {id: 33, name: "Soğuk Baklava", category: "serbetli_tatli", price: "160 TL", description: "Şerbetli, sütlü tatlı", images: ["data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 300 200'%3E%3Crect fill='%23FFD7₀' width='3₀₀' height='₂₀₀'/%₃E%₃Cpath d='M ₁₀₀ ₆₀ L ₂₀₀ ₆₀ L ₁₈₀ ₁₄₀ L ₁₂₀ ₁₄₀ Z' fill='%₂₃DAA5₂₀'/%₃E%₃Ctext x='₁₅₀' y='₁₁₀' font-size='₄₀' fill='white' text-anchor='middle'%₃E❄️%₃C/text%₃E%₃C/svg%₃E"]},
 
     // BAKLAVALAR
     {id: 49, name: "Fıstıklı Baklava", category: "baklavalar", price: "180 TL", description: "Bol Antep fıstıklı klasik baklava", images: ["data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 300 200'%3E%3Crect fill='%23E8C86A' width='300' height='200'/%3E%3Cpath d='M70 75 L150 35 L230 75 L150 150 Z' fill='%23B8860B'/%3E%3Ctext x='150' y='115' font-size='34' fill='white' text-anchor='middle'%3E🥜%3C/text%3E%3C/svg%3E"]},
