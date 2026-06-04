@@ -252,10 +252,10 @@ images: ["./kasetatlılar/alaçatı.jpg"]
 
 
     // ŞERBETLİ TATLILAR
-    {id: 32, name: " Cevizli Baklava", category: "serbetli_tatli", price: "150 TL", description: "Cevizli, şerbetli baklavalar", images: ["./şerbetli_tatlılar/cevizlibaklava.jpg"]},
-    {id: 33, name: "Soğuk Baklava", category: "serbetli_tatli", price: "160 TL", description: "Şerbetli, sütlü tatlı", images: ["./şerbetli_tatlılar/soğukbaklava.jpg"]},
-    {id: 49, name: "Şekerpare", category: "serbetli_tatli", price: "180 TL", description: "şekerpare", images: ["./şerbetli_tatlılar/şekerpare.jpg"]},
-    {id: 50, name: "kalburabastı", category: "serbetli_tatli", price: "17₀ TL", description: "kalburabastı", images: ["./şerbetli_tatlılar/kalburabastı.jpg"]},
+    {id: 32, name: "Cevizli Baklava", category: "serbetli_tatli", price: "150 TL", description: "Cevizli, şerbetli baklavalar", images: ["./serbetli_tatlilar/cevizlibaklava.jpg"]},
+{id: 33, name: "Soğuk Baklava", category: "serbetli_tatli", price: "160 TL", description: "Şerbetli, sütlü tatlı", images: ["./serbetli_tatlilar/sogukbaklava.jpg"]},
+{id: 49, name: "Şekerpare", category: "serbetli_tatli", price: "180 TL", description: "Şekerpare", images: ["./serbetli_tatlilar/sekerpare.jpg"]},
+{id: 50, name: "Kalburabastı", category: "serbetli_tatli", price: "170 TL", description: "Kalburabastı", images: ["./serbetli_tatlilar/kalburabasti.jpg"]},
 
     // KURU PASTALAR
     {id: 51, name: "Un Kurabiyesi", category: "kuru_pastalar", price: "120 TL", description: "Ağızda dağılan klasik un kurabiyesi", images: ["data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 300 200'%3E%3Crect fill='%23F5DEB3' width='300' height='200'/%3E%3Ccircle cx='120' cy='100' r='42' fill='%23D2B48C'/%3E%3Ccircle cx='180' cy='100' r='42' fill='%23C8A97E'/%3E%3Ctext x='150' y='110' font-size='30' fill='white' text-anchor='middle'%3E🍪%3C/text%3E%3C/svg%3E"]},
