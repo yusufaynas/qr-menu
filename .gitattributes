@@ -1,0 +1,20 @@
+# Tüm metin dosyalarında satır sonlarını otomatik ayarla
+* text=auto
+
+# Windows için CRLF, Linux/Mac için LF kullanımı
+*.js text eol=lf
+*.css text eol=lf
+*.html text eol=lf
+*.md text eol=lf
+
+# Binary dosyalar (satır sonu dönüşümü yapılmaz)
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.exe binary
+*.zip binary
+*.tar binary
+*.gz binary
+*.pdf binary

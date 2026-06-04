@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ürünler - Yunus Emre Pastanesi</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Floating pastane öğeleri -->
+    <div class="floating-pastries">
+        <div class="pastry pastry-1">🧁</div>
+        <div class="pastry pastry-2">🎂</div>
+        <div class="pastry pastry-3">🥐</div>
+        <div class="pastry pastry-4">🍰</div>
+        <div class="pastry pastry-5">🧁</div>
+        <div class="pastry pastry-6">🎂</div>
+        <div class="pastry pastry-7">🥐</div>
+    </div>
+
+    <div class="container">
+        <header>
+            <div class="logo">YE</div>
+            <h1>Yunus Emre Pastanesi</h1>
+            <p class="subtitle">Hoşgeldiniz</p>
+            <a href="index.html" class="back-btn">← Geri Dön</a>
+        </header>
+
+        <div class="products-page">
+            <h2 id="categoryTitle" style="text-align: center; color: #27AE60; font-size: 32px; margin: 30px 0; text-shadow: 2px 2px 4px rgba(0,0,0,0.5);">Kategori</h2>
+            <div class="products-grid" id="productsGrid">
+                <!-- Ürünler buraya yüklenecek -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Ürün Detayları Modal -->
+    <div class="modal" id="productModal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <div class="modal-body">
+                <div class="image-gallery">
+                    <img id="modalImage" src="" alt="Ürün">
+                    <div class="gallery-nav">
+                        <button class="gallery-prev" id="prevBtn">❮</button>
+                        <button class="gallery-next" id="nextBtn">❯</button>
+                    </div>
+                    <div class="image-counter">
+                        <span id="imageCounter">1 / 1</span>
+                    </div>
+                </div>
+                <h2 id="modalTitle"></h2>
+                <p id="modalCategory"></p>
+                <p id="modalDescription"></p>
+                <div class="price-section">
+                    <span id="modalPrice"></span>
+                    <button class="add-to-order">Sipariş Ver</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+    <script>
+        // Sayfa yüklendiğinde ürünleri göster
+        document.addEventListener('DOMContentLoaded', () => {
+            const params = new URLSearchParams(window.location.search);
+            const kategori = params.get('kategori');
+            
+            if (kategori) {
+                renderProducts(kategori);
+            }
+        });
+
+        // URL parametresine göre ürünleri göster
+        function renderProducts(categoryId) {
+            const grid = document.getElementById('productsGrid');
+            const titleEl = document.getElementById('categoryTitle');
+            
+            const categoryLabels = {
+                'simitler': '🥯 Simitler',
+                'acmalar': '� Açmalar',
+                'hamburgeler': '🍔 Hamburgeler',
+                'borek': '🌯 Börekler',
+                'pizza': '🍕 Pizzalar',
+                'pogaca': '🧅 Poğaçalar',
+                'pastalar': '🎂 Pastalar',
+                'cedricler': '🍰 Cedricler',
+                'kase_tatli': '🥣 Kase Tatlılar',
+                'sutlu_tatli': '🍮 Sütlü Tatlılar',
+                'serbetli_tatli': '🍡 Şerbetli Tatlılar',
+                'baklavalar': '🥜 Baklavalar',
+                'kuru_pastalar': '🍪 Kuru Pastalar',
+                'icecek': '☕ İçecekler'
+            };
+            
+            titleEl.textContent = categoryLabels[categoryId] || categoryId;
+            grid.innerHTML = '';
+            
+            const items = menuData.filter(item => item.category === categoryId);
+            
+            items.forEach((item, index) => {
+                const menuItem = document.createElement('div');
+                menuItem.className = 'menu-item';
+                menuItem.style.animationDelay = `${index * 0.05}s`;
+                menuItem.innerHTML = `
+                    <img src="${item.images[0]}" alt="${item.name}" class="menu-item-image" onerror="this.src='data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 300 200%22%3E%3Crect fill=%22%23D2B48C%22 width=%22300%22 height=%22200%22/%3E%3Ctext x=%22150%22 y=%22100%22 font-size=%2240%22 fill=%22%23333%22 text-anchor=%22middle%22%3E🖼️%3C/text%3E%3C/svg%3E'">
+                    <div class="menu-item-content">
+                        <h3 class="menu-item-title">${(item.category === 'simitler' || item.category === 'acmalar' || item.category === 'hamburgeler') ? '🍔 ' : ''}${item.name}</h3>
+                        <p class="menu-item-description">${item.description}</p>
+                        <div class="menu-item-footer">
+                            <span class="menu-item-price">${item.price}</span>
+                            <button class="quick-order-btn">Detaylar</button>
+                        </div>
+                    </div>
+                `;
+                menuItem.addEventListener('click', () => openModal(item));
+                grid.appendChild(menuItem);
+            });
+        }
+    </script>
+</body>
+</html>
