@@ -252,12 +252,10 @@ images: ["./kasetatlılar/alaçatı.jpg"]
 
 
     // ŞERBETLİ TATLILAR
-    {id: 32, name: "Baklava", category: "serbetli_tatli", price: "150 TL", description: "Cevizli, şerbetli baklavalar", images: ["data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 300 200'%3E%3Crect fill='%23DAA520' width='300' height='200'/%3E%3Cpath d='M 100 60 L 200 60 L 180 140 L 120 140 Z' fill='%238B4513'/%3E%3Ctext x='150' y='110' font-size='35' fill='%23FFD700' text-anchor='middle'%3E🏆%3C/text%3E%3C/svg%3E"]},
-    {id: 33, name: "Soğuk Baklava", category: "serbetli_tatli", price: "160 TL", description: "Şerbetli, sütlü tatlı", images: ["data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 300 200'%3E%3Crect fill='%23FFD7₀' width='3₀₀' height='₂₀₀'/%₃E%₃Cpath d='M ₁₀₀ ₆₀ L ₂₀₀ ₆₀ L ₁₈₀ ₁₄₀ L ₁₂₀ ₁₄₀ Z' fill='%₂₃DAA5₂₀'/%₃E%₃Ctext x='₁₅₀' y='₁₁₀' font-size='₄₀' fill='white' text-anchor='middle'%₃E❄️%₃C/text%₃E%₃C/svg%₃E"]},
-
-    // BAKLAVALAR
-    {id: 49, name: "Fıstıklı Baklava", category: "baklavalar", price: "180 TL", description: "Bol Antep fıstıklı klasik baklava", images: ["data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 300 200'%3E%3Crect fill='%23E8C86A' width='300' height='200'/%3E%3Cpath d='M70 75 L150 35 L230 75 L150 150 Z' fill='%23B8860B'/%3E%3Ctext x='150' y='115' font-size='34' fill='white' text-anchor='middle'%3E🥜%3C/text%3E%3C/svg%3E"]},
-    {id: 50, name: "Cevizli Baklava", category: "baklavalar", price: "170 TL", description: "Kat kat açılmış hamurla cevizli baklava", images: ["data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 300 200'%3E%3Crect fill='%23D9B85F' width='300' height='200'/%3E%3Crect x='65' y='50' width='170' height='100' rx='10' fill='%238B5E3C'/%3E%3Ctext x='150' y='112' font-size='34' fill='white' text-anchor='middle'%3E🍯%3C/text%3E%3C/svg%3E"]},
+    {id: 32, name: " Cevizli Baklava", category: "serbetli_tatli", price: "150 TL", description: "Cevizli, şerbetli baklavalar", images: ["./şerbetli_tatlılar/cevizlibaklava.jpg"]},
+    {id: 33, name: "Soğuk Baklava", category: "serbetli_tatli", price: "160 TL", description: "Şerbetli, sütlü tatlı", images: ["./şerbetli_tatlılar/soğukbaklava.jpg"]},
+    {id: 49, name: "Şekerpare", category: "serbetli_tatli", price: "180 TL", description: "şekerpare", images: ["./şerbetli_tatlılar/şekerpare.jpg"]},
+    {id: 50, name: "kalburabastı", category: "serbetli_tatli", price: "17₀ TL", description: "kalburabastı", images: ["./şerbetli_tatlılar/kalburabastı.jpg"]},
 
     // KURU PASTALAR
     {id: 51, name: "Un Kurabiyesi", category: "kuru_pastalar", price: "120 TL", description: "Ağızda dağılan klasik un kurabiyesi", images: ["data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 300 200'%3E%3Crect fill='%23F5DEB3' width='300' height='200'/%3E%3Ccircle cx='120' cy='100' r='42' fill='%23D2B48C'/%3E%3Ccircle cx='180' cy='100' r='42' fill='%23C8A97E'/%3E%3Ctext x='150' y='110' font-size='30' fill='white' text-anchor='middle'%3E🍪%3C/text%3E%3C/svg%3E"]},
