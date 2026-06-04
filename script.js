@@ -252,7 +252,7 @@ images: ["./kasetatlılar/alaçatı.jpg"]
 
 
     // ŞERBETLİ TATLILAR
-    {id: 32, name: "Cevizli Baklava", category: "serbetli_tatli", price: "150 TL", description: "Cevizli, şerbetli baklavalar", images: ["./serbetli_tatlilar/cevizlibaklava.jpg"]},
+    {id: 32, name: "Cevizli Baklava", category: "serbetli_tatli", price: "150 TL", description: "Cevizli, şerbetli baklavalar", images: ["./serbetli_tatlilar/cevizli.jpg"]},
 {id: 33, name: "Soğuk Baklava", category: "serbetli_tatli", price: "160 TL", description: "Şerbetli, sütlü tatlı", images: ["./serbetli_tatlilar/sogukbaklava.jpg"]},
 {id: 49, name: "Şekerpare", category: "serbetli_tatli", price: "180 TL", description: "Şekerpare", images: ["./serbetli_tatlilar/sekerpare.jpg"]},
 {id: 50, name: "Kalburabastı", category: "serbetli_tatli", price: "170 TL", description: "Kalburabastı", images: ["./serbetli_tatlilar/kalburabasti.jpg"]},
@@ -299,7 +299,7 @@ function renderMenu() {
         { id: 'kase_tatli', label: '🥣 Kase Tatlılar', background: 'linear-gradient(135deg, #FFFACD 0%, #FFD700 100%)', backgroundImage: './kasetatlılar/kasetatlılar.jpg' },
         { id: 'eklerler', label: '🍮 Eklerler', background: 'linear-gradient(135deg, #8B6914 0%, #DAA520 100%)', backgroundImage: './ekler/klasikekler.jpg' },
         { id: 'sutlu_tatli', label: '🍮 Sütlü Tatlılar', background: 'linear-gradient(135deg, #F0E68C 0%, #DAA520 100%)', backgroundImage: './sütlütatlılar/saütlütatlılar.jpg' },
-        { id: 'serbetli_tatli', label: '🍡 Şerbetli Tatlılar', background: 'linear-gradient(135deg, #DEB887 0%, #D2691E 100%)', backgroundImage: './kategorigörsel/serbetli.jpg' },
+        { id: 'serbetli_tatli', label: '🍡 Şerbetli Tatlılar', background: 'linear-gradient(135deg, #DEB887 0%, #D2691E 100%)', backgroundImage: './serbetli_tatlilar/serbetli.jpg' },
         { id: 'icecek', label: '☕ İçecekler', background: 'linear-gradient(135deg, #8B4513 0%, #654321 100%)', backgroundImage: './kategorigörsel/içecekler.jpg' },
         { id: 'baklavalar', label: '🥜 Baklavalar', background: 'linear-gradient(135deg, #D2A679 0%, #8B6914 100%)', backgroundImage: './kategorigörsel/baklava.jpg' },
         { id: 'kuru_pastalar', label: '🍪 Kuru Pastalar', background: 'linear-gradient(135deg, #FDDAA3 0%, #DAA520 100%)', backgroundImage: './kategorigörsel/kurupasta.jpg' },
