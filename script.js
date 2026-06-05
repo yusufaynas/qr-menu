@@ -282,10 +282,23 @@ images: ["./kasetatlılar/alaçatı.jpg"]
     {id: 48, name: "filtre kahve", category: "sıcakicecekler", price: "30 TL", description: "", images: ["./sıcakicecekler/filtrekahve.jpg"]},
     {id: 49, name: "ıhlamur", category: "sıcakicecekler", price: "30 TL", description: "", images: ["./sıcakicecekler/ıhlamur.jpg"]},
     {id: 50, name: "nane limon", category: "sıcakicecekler", price: "30 TL", description: "", images: ["./sıcakicecekler/nanelimon.jpg"]},
-    {id: 51, name: "papatya çayı", category: "sıcakicecekler", price: "30 TL", description: "", images: ["./sıcakicecekler/papatyacayi.jpg"]},
+    {id: 51, name: "papatya çayı", category: "sıcakicecekler", price: "30 TL", description: "", images: ["./sıcakicecekler/papatya.jpg"]},
     {id: 52, name: "salep", category: "sıcakicecekler", price: "30 TL", description: "", images: ["./sıcakicecekler/salep.jpg"]},
-    {id: 53, name: "sıcak çikolata", category: "sıcakicecekler", price: "30 TL", description: "", images: ["./sıcakicecekler/sıcakcikolata.jpg"]}
-    
+    {id: 53, name: "sıcak çikolata", category: "sıcakicecekler", price: "30 TL", description: "", images: ["./sıcakicecekler/sicakcikolata.jpg"]},
+
+    // kurapasta 
+    {id: 54, name: "Un Kurabiyesi", category: "kurupastalar", price: "120 TL", description: "Ağızda dağılan klasik un kurabiyesi", images: ["./kurupastalar/unlu.jpg"]},
+    {id: 55, name: "Tuzlu Kurabiye", category: "kurupastalar", price: "110 TL", description: "Çay saatine uygun susamlı tuzlu kurabiye", images: ["./kurupastalar/tuzlu.jpg"]},
+    {   id: 56, name: "leblebili Kurabiyesi", category: "kurupastalar", price: "130 TL", description: "Fındık aromalı çıtır kurabiye", images: ["./kurupastalar/leblebili.jpg"]},
+    {   id: 57, name: "dereotlu kurabiye", category: "kurupastalar", price: "130 TL", description: "", images: ["./kurupastalar/dereotlu.jpg"]},
+    {   id: 58, name: "elmalı Kurabiye", category: "kurupastalar", price: "130 TL", description: "", images: ["./kurupastalar/elmalı.jpg"]},
+    {   id: 59, name: "leblebili kurabiye", category: "kurupastalar", price: "130 TL", description: "", images: ["./kurupastalar/leblebili.jpg"]},
+    {   id: 60, name: "damla çikolatalı kurabiye", category: "kurupastalar", price: "130 TL", description: "", images: ["./kurupastalar/damla.jpg"]},
+    {   id: 61, name: "kakaolu kurabiye", category: "kurupastalar", price: "130 TL", description: "", images: ["./kurupastalar/kakaolu.jpg"]},
+    {   id: 62, name: "tahinli kurabiye", category: "kurupastalar", price: "130 TL", description: "", images: ["./kurupastalar/tahinli.jpg"]},
+    {   id: 63, name: "çubuklu kurabiye", category: "kurupastalar", price: "130 TL", description: "", images: ["./kurupastalar/çubuklu.jpg"]},
+    {   id: 64, name: "Simit kurabiye", category: "kurupastalar", price: "130 TL", description: "", images: ["./kurupastalar/simitkuru.jpg"]}
+
 
 ]; 
 
@@ -322,8 +335,8 @@ function renderMenu() {
         { id: 'serbetli_tatli', label: '🍡 Şerbetli Tatlılar', background: 'linear-gradient(135deg, #DEB887 0%, #D2691E 100%)', backgroundImage: './serbetli_tatlilar/serbetli.jpg' },
         { id: 'baklavalar', label: '🥜 Baklavalar', background: 'linear-gradient(135deg, #D2A679 0%, #8B6914 100%)', backgroundImage: './kategorigörsel/baklava.jpg' },
         { id: 'sogukicecekler', label: '☕  Soğuk İçecekler', background: 'linear-gradient(135deg, #87CEFA 0%, #00BFFF 100%)', backgroundImage: './sogukicecekler/sogukicecekler.jpg' },
-        { id: 'sıcak_icecekler', label: '☕ Sıcak İçecekler', background: 'linear-gradient(135deg, #A0522D 0%, #8B4513 100%)', backgroundImage: './sıcakicecekler/sıcakicecekler.jpg' },
-        { id: 'kuru_pastalar', label: '🍪 Kuru Pastalar', background: 'linear-gradient(135deg, #FDDAA3 0%, #DAA520 100%)', backgroundImage: './kategorigörsel/kurupasta.jpg' }
+        { id: 'sıcakicecekler', label: '☕ Sıcak İçecekler', background: 'linear-gradient(135deg, #A0522D 0%, #8B4513 100%)', backgroundImage: './sıcakicecekler/sıcakicecekler.jpg' },
+        { id: 'kurupastalar', label: '🍪 Kuru Pastalar', background: 'linear-gradient(135deg, #FDDAA3 0%, #DAA520 100%)', backgroundImage: './kurupastalar/kurupasta.jpg' }
     ];   
     
     categories.forEach(category => {
