@@ -263,17 +263,17 @@ images: ["./kasetatlılar/alaçatı.jpg"]
 
 
     // İÇECEKLER
-    {id: 34, name: "Fanta", category: "sogukicecekler", price: "60 TL", description: "", images: ["./icecekler/fanta.jpg"]},
-    {id: 35, name: "Fuse tea", category: "sogukicecekler", price: "20 TL", description: "", images: ["./icecekler/fusetea.jpg"]},
-    {id: 36, name: "kola", category: "sogukicecekler", price: "25 TL", description: "", images: ["./icecekler/kola.jpg"]},
-    {id: 37, name: "Ayran", category: "sogukicecekler", price: " thirty-five TL", description: "Taze, soğuk ayran", images: ["./icecekler/ayran.jpg"]},
-    {id: 38, name: "Sade Soda", category: "sogukicecekler", price: "15 TL", description: "Serinletici soda", images: ["./icecekler/sadesoda.jpg"]},
-    {id: 39, name: "Limonata", category: "sogukicecekler", price: "30 TL", description: "Ev yapımı taze limonata", images: ["./icecekler/limonata.jpg"]},
-    {id: 40, name: "Meyve Suyu", category: "sogukicecekler", price: "25 TL", description: "Çeşitli meyve aromalı meyve suyu", images: ["./icecekler/meyvesuyu.jpg"]},
-    {id: 41, name: "limonlu soda", category: "sogukicecekler", price: "30 TL", description: "", images: ["./icecekler/limonlusoda.jpg"]},
-    {id: 42, name: "Portakallı Soda", category: "sogukicecekler", price: "30 TL", description: "", images: ["./icecekler/portakallısoda.jpg"]},
-    {id: 43, name: "Çilek Karpuzlu Soda", category: "sogukicecekler", price: "30 TL", description: "", images: ["./icecekler/karpuzlusoda.jpg"]},
-    {id: 44, name: "elmalı Soda", category: "sogukicecekler", price: "30 TL", description: "", images: ["./icecekler/elmalısoda.jpg"]},
+    {id: 34, name: "Fanta", category: "sogukicecekler", price: "60 TL", description: "", images: ["./sogukicecekler/fanta.jpg"]},
+    {id: 35, name: "Fuse tea", category: "sogukicecekler", price: "20 TL", description: "", images: ["./sogukicecekler/fusetea.jpg"]},
+    {id: 36, name: "kola", category: "sogukicecekler", price: "25 TL", description: "", images: ["./sogukicecekler/kola.jpg"]},
+    {id: 37, name: "Ayran", category: "sogukicecekler", price: " thirty-five TL", description: "Taze, soğuk ayran", images: ["./sogukicecekler/ayran.jpg"]},
+    {id: 38, name: "Sade Soda", category: "sogukicecekler", price: "15 TL", description: "Serinletici soda", images: ["./sogukicecekler/sadesoda.jpg"]},
+    {id: 39, name: "Limonata", category: "sogukicecekler", price: "30 TL", description: "Ev yapımı taze limonata", images: ["./sogukicecekler/limonata.jpg"]},
+    {id: 40, name: "Meyve Suyu", category: "sogukicecekler", price: "25 TL", description: "Çeşitli meyve aromalı meyve suyu", images: ["./sogukicecekler/meyvasuyu.jpg"]},
+    {id: 41, name: "limonlu soda", category: "sogukicecekler", price: "30 TL", description: "", images: ["./sogukicecekler/limonlusoda.jpg"]},
+    {id: 42, name: "Portakallı Soda", category: "sogukicecekler", price: "30 TL", description: "", images: ["./sogukicecekler/portakallısoda.jpg"]},
+    {id: 43, name: "Çilek Karpuzlu Soda", category: "sogukicecekler", price: "30 TL", description: "", images: ["./sogukicecekler/karpuzlusoda.jpg"]},
+    {id: 44, name: "elmalı Soda", category: "sogukicecekler", price: "30 TL", description: "", images: ["./sogukicecekler/elmalısoda.jpg"]},
 ]; 
 
 // DOM Elementleri
