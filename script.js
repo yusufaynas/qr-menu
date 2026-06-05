@@ -263,11 +263,18 @@ images: ["./kasetatlılar/alaçatı.jpg"]
 
 
     // İÇECEKLER
-    {id: 34, name: "Türk Kahvesi", category: "icecek", price: "60 TL", description: "Geleneksel usûl Türk kahvesi", images: ["data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 300 200'%3E%3Crect fill='%23F5DEB3' width='300' height='200'/%3E%3Crect x='80' y='50' width='140' height='120' fill='%238B4513' rx='10'/%3E%3Ctext x='150' y='120' font-size='40' fill='white' text-anchor='middle'%3E☕%3C/text%3E%3C/svg%3E"]},
-    {id: 35, name: "Çay", category: "icecek", price: "20 TL", description: "Sıcak ve aromalı çay", images: ["data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 300 200'%3E%3Crect fill='%23FFE4B5' width='300' height='200'/%3E%3Crect x='100' y='60' width='100' height='80' fill='%23DAA520' rx='10'/%3E%3Ctext x='150' y='115' font-size='40' fill='white' text-anchor='middle'%3E🍵%3C/text%3E%3C/svg%3E"]},
-    {id: 36, name: "Nescafé", category: "icecek", price: "25 TL", description: "Pratik ve lezzetli instant kahve", images: ["data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 300 200'%3E%3Crect fill='%238B4513' width='300' height='200'/%3E%3Crect x='85' y='55' width='130' height='110' fill='%23D2691E' rx='10'/%3E%3Ctext x='150' y='120' font-size='38' fill='white' text-anchor='middle'%3E🍶%3C/text%3E%3C/svg%3E"]},
-    {id: 37, name: "Ayran", category: "icecek", price: "35 TL", description: "Taze, soğuk ayran", images: ["data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 300 200'%3E%3Crect fill='%23FFFACD' width='300' height='200'/%3E%3Ccircle cx='150' cy='100' r='65' fill='%23F0E68C'/%3E%3Ctext x='150' y='115' font-size='40' fill='white' text-anchor='middle'%3E🥛%3C/text%3E%3C/svg%3E"]}
-];
+    {id: 34, name: "Fanta", category: "sogukicecekler", price: "60 TL", description: "", images: ["./icecekler/fanta.jpg"]},
+    {id: 35, name: "Fuse tea", category: "sogukicecekler", price: "20 TL", description: "", images: ["./icecekler/fusetea.jpg"]},
+    {id: 36, name: "kola", category: "sogukicecekler", price: "25 TL", description: "", images: ["./icecekler/kola.jpg"]},
+    {id: 37, name: "Ayran", category: "sogukicecekler", price: " thirty-five TL", description: "Taze, soğuk ayran", images: ["./icecekler/ayran.jpg"]},
+    {id: 38, name: "Sade Soda", category: "sogukicecekler", price: "15 TL", description: "Serinletici soda", images: ["./icecekler/sadesoda.jpg"]},
+    {id: 39, name: "Limonata", category: "sogukicecekler", price: "30 TL", description: "Ev yapımı taze limonata", images: ["./icecekler/limonata.jpg"]},
+    {id: 40, name: "Meyve Suyu", category: "sogukicecekler", price: "25 TL", description: "Çeşitli meyve aromalı meyve suyu", images: ["./icecekler/meyvesuyu.jpg"]},
+    {id: 41, name: "limonlu soda", category: "sogukicecekler", price: "30 TL", description: "", images: ["./icecekler/limonlusoda.jpg"]},
+    {id: 42, name: "Portakallı Soda", category: "sogukicecekler", price: "30 TL", description: "", images: ["./icecekler/portakallısoda.jpg"]},
+    {id: 43, name: "Çilek Karpuzlu Soda", category: "sogukicecekler", price: "30 TL", description: "", images: ["./icecekler/karpuzlusoda.jpg"]},
+    {id: 44, name: "elmalı Soda", category: "sogukicecekler", price: "30 TL", description: "", images: ["./icecekler/elmalısoda.jpg"]},
+]; 
 
 // DOM Elementleri
 const menuContainer = document.getElementById('menuContainer');
@@ -300,7 +307,6 @@ function renderMenu() {
         { id: 'eklerler', label: '🍮 Eklerler', background: 'linear-gradient(135deg, #8B6914 0%, #DAA520 100%)', backgroundImage: './ekler/klasikekler.jpg' },
         { id: 'sutlu_tatli', label: '🍮 Sütlü Tatlılar', background: 'linear-gradient(135deg, #F0E68C 0%, #DAA520 100%)', backgroundImage: './sütlütatlılar/saütlütatlılar.jpg' },
         { id: 'serbetli_tatli', label: '🍡 Şerbetli Tatlılar', background: 'linear-gradient(135deg, #DEB887 0%, #D2691E 100%)', backgroundImage: './serbetli_tatlilar/serbetli.jpg' },
-        { id: 'icecek', label: '☕ İçecekler', background: 'linear-gradient(135deg, #8B4513 0%, #654321 100%)', backgroundImage: './kategorigörsel/içecekler.jpg' },
         { id: 'baklavalar', label: '🥜 Baklavalar', background: 'linear-gradient(135deg, #D2A679 0%, #8B6914 100%)', backgroundImage: './kategorigörsel/baklava.jpg' },
         { id: 'kuru_pastalar', label: '🍪 Kuru Pastalar', background: 'linear-gradient(135deg, #FDDAA3 0%, #DAA520 100%)', backgroundImage: './kategorigörsel/kurupasta.jpg' },
     ];
