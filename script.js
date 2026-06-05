@@ -272,8 +272,21 @@ images: ["./kasetatlılar/alaçatı.jpg"]
     {id: 40, name: "Meyve Suyu", category: "sogukicecekler", price: "25 TL", description: "Çeşitli meyve aromalı meyve suyu", images: ["./sogukicecekler/meyvasuyu.jpg"]},
     {id: 41, name: "limonlu soda", category: "sogukicecekler", price: "30 TL", description: "", images: ["./sogukicecekler/limonlusoda.jpg"]},
     {id: 42, name: "Portakallı Soda", category: "sogukicecekler", price: "30 TL", description: "", images: ["./sogukicecekler/portakallısoda.jpg"]},
-    {id: 43, name: "Çilek Karpuzlu Soda", category: "sogukicecekler", price: "30 TL", description: "", images: ["./sogukicecekler/karpuzlusoda.jpg"]},
+    {id: 43, name: "Çilek Karpuzlu Soda", category: "sogukicecekler", price: "30 TL", description: "", images: ["./sogukicecekler/çilekkarpuzlusoda.jpg"]},
     {id: 44, name: "elmalı Soda", category: "sogukicecekler", price: "30 TL", description: "", images: ["./sogukicecekler/elmalısoda.jpg"]},
+
+    // Sıcak İçecekler
+    {id: 45, name: "Türk Kahvesi", category: "sıcakicecekler", price: "30 TL", description: "Geleneksel Türk kahvesi", images: ["./sıcakicecekler/turkkahvesi.jpg"]},
+    {id: 46, name: "Çay", category: "sıcakicecekler", price: "30 TL", description: "Taze kaynatılmış çay", images: ["./sıcakicecekler/cay.jpg"]},
+    {id: 47, name: "adacayı", category: "sıcakicecekler", price: "30 TL", description: "", images: ["./sıcakicecekler/adacayı.jpg"]},
+    {id: 48, name: "filtre kahve", category: "sıcakicecekler", price: "30 TL", description: "", images: ["./sıcakicecekler/filtrekahve.jpg"]},
+    {id: 49, name: "ıhlamur", category: "sıcakicecekler", price: "30 TL", description: "", images: ["./sıcakicecekler/ıhlamur.jpg"]},
+    {id: 50, name: "nane limon", category: "sıcakicecekler", price: "30 TL", description: "", images: ["./sıcakicecekler/nanelimon.jpg"]},
+    {id: 51, name: "papatya çayı", category: "sıcakicecekler", price: "30 TL", description: "", images: ["./sıcakicecekler/papatyacayi.jpg"]},
+    {id: 52, name: "salep", category: "sıcakicecekler", price: "30 TL", description: "", images: ["./sıcakicecekler/salep.jpg"]},
+    {id: 53, name: "sıcak çikolata", category: "sıcakicecekler", price: "30 TL", description: "", images: ["./sıcakicecekler/sıcakcikolata.jpg"]}
+    
+
 ]; 
 
 // DOM Elementleri
@@ -310,7 +323,8 @@ function renderMenu() {
         { id: 'baklavalar', label: '🥜 Baklavalar', background: 'linear-gradient(135deg, #D2A679 0%, #8B6914 100%)', backgroundImage: './kategorigörsel/baklava.jpg' },
         { id: 'sogukicecekler', label: '☕  Soğuk İçecekler', background: 'linear-gradient(135deg, #87CEFA 0%, #00BFFF 100%)', backgroundImage: './sogukicecekler/sogukicecekler.jpg' },
         { id: 'kuru_pastalar', label: '🍪 Kuru Pastalar', background: 'linear-gradient(135deg, #FDDAA3 0%, #DAA520 100%)', backgroundImage: './kategorigörsel/kurupasta.jpg' },
-    ];
+        { id:'sıcak_icecekler', label: '☕ Sıcak İçecekler', background: 'linear-gradient(135deg, #A0522D 0%, #8B4513 100%)', backgroundImage: './sıcakicecekler/sıcakicecekler.jpg' }
+    ];   
     
     categories.forEach(category => {
         const items = menuData.filter(item => item.category === category.id);
@@ -364,7 +378,8 @@ function getCategoryLabel(category) {
         'serbetli_tatli': '🍡 Şerbetli Tatlılar',
         'baklavalar': '🥜 Baklavalar',
         'kuru_pastalar': '🍪 Kuru Pastalar',
-        'icecek': '☕ İçecekler'
+        'sogukicecekler': '☕ Soğuk İçecekler',
+        'sicakicecekler': '☕ Sıcak İçecekler'
     };
     return labels[category] || category;
 }
