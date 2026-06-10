@@ -300,7 +300,7 @@ images: ["./kasetatlılar/alaçatı.jpg"]
     {   id: 64, name: "Simit kurabiye", category: "kurupastalar", price: "130 TL", description: "", images: ["./kurupastalar/simitkuru.jpg"]},
 
     //KAHVALTI ÇEŞİTLERİ
-    {    id: 65, name: "Kahvaltı Tabağı", category: "kahvalti", price: "150 TL", description: "Zengin kahvaltı tabağı", images: ["./kategorigörsel/kahvalti.jpg"]},
+    {    id: 65, name: "Kahvaltı Tabağı", category: "kahvalti", price: "150 TL", description: "Zengin kahvaltı tabağı", images: ["./kategorigörsel/kahvaltıtabak.jpg"]},
     {   id: 66, name: "Serpme Kahvaltı", category: "kahvalti", price: "200 TL", description: "Çeşitli peynirler, zeytinler, reçeller ve taze ekmeklerle dolu serpme kahvaltı", images: ["./kategorigörsel/serpme.jpg"]},
 ]; 
 
@@ -338,8 +338,8 @@ function renderMenu() {
         { id: 'baklavalar', label: '🥜 Baklavalar', background: 'linear-gradient(135deg, #D2A679 0%, #8B6914 100%)', backgroundImage: './kategorigörsel/baklava.jpg' },
         { id: 'sogukicecekler', label: '☕  Soğuk İçecekler', background: 'linear-gradient(135deg, #87CEFA 0%, #00BFFF 100%)', backgroundImage: './sogukicecekler/sogukicecekler.jpg' },
         { id: 'sıcakicecekler', label: '☕ Sıcak İçecekler', background: 'linear-gradient(135deg, #A0522D 0%, #8B4513 100%)', backgroundImage: './sıcakicecekler/sıcakicecekler.jpg' },
-        { id: 'kurupastalar', label: '🍪 Kuru Pastalar', background: 'linear-gradient(135deg, #FDDAA3 0%, #DAA520 100%)', backgroundImage: './kurupastalar/kurupasta.jpg' }
-        { id: 'kahvalti', label: '📋 Kahvaltı Çeşitleri', background: 'linear-gradient(135deg, #D3D3D3 0%, #A9A9A9 100%)', backgroundImage: './kategorigörsel/kahvalti.jpg' }   
+        { id: 'kurupastalar', label: '🍪 Kuru Pastalar', background: 'linear-gradient(135deg, #FDDAA3 0%, #DAA520 100%)', backgroundImage: './kurupastalar/kurupasta.jpg' },
+        { id: 'kahvalti', label: '📋 Kahvaltı Çeşitleri', background: 'linear-gradient(135deg, #D3D3D3 0%, #A9A9A9 100%)', backgroundImage: './kategorigörsel/kahvalti.jpg' ,}   
     ];   
     
     categories.forEach(category => {
