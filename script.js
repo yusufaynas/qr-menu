@@ -297,9 +297,11 @@ images: ["./kasetatlılar/alaçatı.jpg"]
     {   id: 61, name: "kakaolu kurabiye", category: "kurupastalar", price: "130 TL", description: "", images: ["./kurupastalar/kakaolu.jpg"]},
     {   id: 62, name: "tahinli kurabiye", category: "kurupastalar", price: "130 TL", description: "", images: ["./kurupastalar/tahinli.jpg"]},
     {   id: 63, name: "çubuklu kurabiye", category: "kurupastalar", price: "130 TL", description: "", images: ["./kurupastalar/çubuklu.jpg"]},
-    {   id: 64, name: "Simit kurabiye", category: "kurupastalar", price: "130 TL", description: "", images: ["./kurupastalar/simitkuru.jpg"]}
+    {   id: 64, name: "Simit kurabiye", category: "kurupastalar", price: "130 TL", description: "", images: ["./kurupastalar/simitkuru.jpg"]},
 
-
+    //KAHVALTI ÇEŞİTLERİ
+    {    id: 65, name: "Kahvaltı Tabağı", category: "kahvalti", price: "150 TL", description: "Zengin kahvaltı tabağı", images: ["./kategorigörsel/kahvalti.jpg"]},
+    {   id: 66, name: "Serpme Kahvaltı", category: "kahvalti", price: "200 TL", description: "Çeşitli peynirler, zeytinler, reçeller ve taze ekmeklerle dolu serpme kahvaltı", images: ["./kategorigörsel/serpme.jpg"]},
 ]; 
 
 // DOM Elementleri
@@ -337,6 +339,7 @@ function renderMenu() {
         { id: 'sogukicecekler', label: '☕  Soğuk İçecekler', background: 'linear-gradient(135deg, #87CEFA 0%, #00BFFF 100%)', backgroundImage: './sogukicecekler/sogukicecekler.jpg' },
         { id: 'sıcakicecekler', label: '☕ Sıcak İçecekler', background: 'linear-gradient(135deg, #A0522D 0%, #8B4513 100%)', backgroundImage: './sıcakicecekler/sıcakicecekler.jpg' },
         { id: 'kurupastalar', label: '🍪 Kuru Pastalar', background: 'linear-gradient(135deg, #FDDAA3 0%, #DAA520 100%)', backgroundImage: './kurupastalar/kurupasta.jpg' }
+        { id: 'kahvalti', label: '📋 Kahvaltı Çeşitleri', background: 'linear-gradient(135deg, #D3D3D3 0%, #A9A9A9 100%)', backgroundImage: './kategorigörsel/kahvalti.jpg' }   
     ];   
     
     categories.forEach(category => {
