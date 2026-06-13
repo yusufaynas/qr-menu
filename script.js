@@ -100,13 +100,18 @@ const menuData = [
     {id: 13, name: "8 Kişilik Pasta", category: "pastalar", price: "700 TL", description: "Sekiz kişi için özel ve büyük pasta", images: ["./pastalar/8kisilik.jpg"]},
     {id: 14, name: "Rulo Pasta", category: "pastalar", price: "600 TL", description: "Rulo şekilde sarılmış özel pasta", images: ["./pastalar/rulopasta.jpg"]},
     {id: 18, name: "CEDRİC ANTEP FISTIĞI", category: "pasta", price: "200 TL", description: "antep fıstığı aromalı cedric", images: ["./pastalar/cedric.jpg"]},
-
+    { id:78, name: "Bisküvili Pasta", category: "pastalar", price: "200 TL", description: "Çikolata aromalı cedric", images: ["./pastalar/bisküvili.jpg"]},
+    { id:79, name: "Çilekli Pasta", category: "pastalar", price: "200 TL", description: "Çilek aromalı cedric", images: ["./pastalar/çilekli.jpg"]},
+    { id:80, name: "Lotuslu Pasta", category: "pastalar ", price: "200 TL", description: "lotus aromalı cedric", images: ["./pastalar/lotuslu.jpg"]},
+    { id:81, name: "Malaga", category: "pastalar", price: "200 TL", description: "karamel aromalı cedric", images: ["./pastalar/malaga.jpg"]},
+    { id:82, name: "Snıckers", category: "pastalar", price: "200 TL", description: "karamel aromalı cedric", images: ["./pastalar/snıckers.jpg"]},
     // EKLER
     {id: 21, name: "Ekler - Klasik", category: "eklerler", price: "50 TL", description: "Siyah çikolatalı", images: [ 
-        "./ekler/klasikekler.jpg"]},
+        "./ekler/klasik.jpg"]},
     {id: 22, name: "Ekler - Lotuslu", category: "eklerler", price: "80 TL", description: "Lotus bisküvi kırıntılarıyla yapılan lezzetli ekler", images: [
 
-        "./ekler/lotusluekler.jpg"]},
+        "./ekler/lotuslu.jpg"]},
+
         
         {
             id: 37,
@@ -114,7 +119,15 @@ const menuData = [
             category: "eklerler",
             price: "40 TL",
             description: "Antep fıstığı aromalı ekler",
-            images: ["./ekler/antepfıstıklı.jpg"]
+            images: ["./ekler/fıstıklı.jpg"]
+        },
+        {
+            id: 74,
+            name: "beyaz çikolatalı ekler",
+            category: "eklerler",
+            price: "50 TL",
+            description: "Kahve aromalı ekler",
+            images: ["./ekler/beyaz.jpg"]
         },
         
         
@@ -300,8 +313,21 @@ images: ["./kasetatlılar/alaçatı.jpg"]
     {   id: 64, name: "Simit kurabiye", category: "kurupastalar", price: "130 TL", description: "", images: ["./kurupastalar/simitkuru.jpg"]},
 
     //KAHVALTI ÇEŞİTLERİ
-    {    id: 65, name: "Kahvaltı Tabağı", category: "kahvalti", price: "150 TL", description: "Zengin kahvaltı tabağı", images: ["./kategorigörsel/kahvaltıtabak.jpg"]},
-    {   id: 66, name: "Serpme Kahvaltı", category: "kahvalti", price: "200 TL", description: "Çeşitli peynirler, zeytinler, reçeller ve taze ekmeklerle dolu serpme kahvaltı", images: ["./kategorigörsel/serpme.jpg"]},
+    {   id: 65, name: "Kahvaltı Tabağı", category: "kahvalti", price: "150 TL", description: "Zengin kahvaltı tabağı", images: ["./kahvalti/kahvaltıtabak.jpg"]},
+    {   id: 66, name: "Serpme Kahvaltı", category: "kahvalti", price: "200 TL", description: "Çeşitli peynirler, zeytinler, reçeller ve taze ekmeklerle dolu serpme kahvaltı", images: ["./kahvalti/serpme.jpg"]},
+    {   id: 67, name: "Söğüş", category: "kahvalti", price: "150 TL", description: "Taze sıkılmış sogus", images: ["./kahvalti/söğüş.jpg"]},
+    {   id: 68, name: "zeytin tabağı", category: "kahvalti", price: "100 TL", description: "çeşitli zeytinler ve taze ekmeklerle dolu zeytin tabağı", images: ["./kahvalti/zeytin.jpg"]},
+    {   id: 69, name:"tulum peyniri", category: "kahvalti", price: "120 TL", description: "taze tulum peyniri ve taze ekmeklerle dolu tulum peyniri tabağı", images: ["./kahvalti/tulum.jpg"]},
+    {   id: 70, name:"reçel", category: "kahvalti", price: "80 TL", description: "taze reçel ve taze ekmeklerle dolu reçel tabağı", images: ["./kahvalti/reçel.jpg"]},
+    {   id: 71, name:"bal", category: "kahvalti", price: "90 TL", description: "taze bal ve taze ekmeklerle dolu bal tabağı", images: ["./kahvalti/bal.jpg"]},
+    {   id: 72, name:"tereyağı", category: "kahvalti", price: "70 TL", description: "taze tereyağı ve taze ekmeklerle dolu tereyağı tabağı", images: ["./kahvalti/tereyağ.jpg"]},
+    {   id:73, name:"haşlanmış yumurta", category: "kahvalti", price: "50 TL", description: "taze haşlanmış yumurta ve taze ekmeklerle dolu haşlanmış yumurta tabağı", images: ["./kahvalti/yumurta.jpg"]},
+ 
+//Cheseecake
+    {   id: 74, name:"San Sebastian", category: "CheeseCake", price: "200 TL", description: "taze cheesecake ve taze ekmeklerle dolu cheesecake tabağı", images: ["./Chesecake/sebastian.jpg"]},
+    {   id: 75, name:"Frambuazlı Chesecake", category: "CheeseCake", price: "200 TL", description: "taze cheesecake ve taze ekmeklerle dolu cheesecake tabağı", images: ["./Chesecake/frambuaz.jpg"]},
+    {   id: 76, name:"Limonlu Chesecake", category: "CheeseCake", price: "200 TL", description: "taze cheesecake ve taze ekmeklerle dolu cheesecake tabağı", images: ["./Chesecake/limon.jpg"]},
+    {   id: 77, name:"lotuslu Chesecake", category: "CheeseCake", price: "200 TL", description: "taze cheesecake ve taze ekmeklerle dolu cheesecake tabağı", images: ["./Chesecake/lotuslu.jpg"]},
 ]; 
 
 // DOM Elementleri
@@ -330,16 +356,17 @@ function renderMenu() {
         { id: 'pizza', label: '🍕 Pizzalar', background: 'linear-gradient(135deg, #FF4500 0%, #DC143C 100%)', backgroundImage: './pizzalar/pizza.jpg' },
         { id: 'pogaca', label: '🧅 Poğaçalar', background: 'linear-gradient(135deg, #F4A460 0%, #D2691E 100%)', backgroundImage: './poğaçalar/poagaca.jpg' },
         { id: 'pastalar', label: '🎂 Pastalar', background: 'linear-gradient(135deg, #FFB6C1 0%, #FF69B4 100%)', backgroundImage: './pastalar/vitrin.jpg' },
+        { id: 'CheeseCake', label: '🍰 Cheesecake', background: 'linear-gradient(135deg, #F5DEB3 0%, #D2B48C 100%)', backgroundImage: './Chesecake/cheesecake.jpg' },
         { id: 'cedricler', label: '🍰 Cedricler', background: 'linear-gradient(135deg, #DEB887 0%, #D2B48C 100%)', backgroundImage: './pastalar/cedricler/cedricler.jpg' },
         { id: 'kase_tatli', label: '🥣 Kase Tatlılar', background: 'linear-gradient(135deg, #FFFACD 0%, #FFD700 100%)', backgroundImage: './kasetatlılar/kasetatlılar.jpg' },
-        { id: 'eklerler', label: '🍮 Eklerler', background: 'linear-gradient(135deg, #8B6914 0%, #DAA520 100%)', backgroundImage: './ekler/klasikekler.jpg' },
+        { id: 'eklerler', label: '🍮 Eklerler', background: 'linear-gradient(135deg, #8B6914 0%, #DAA520 100%)', backgroundImage: './ekler/ekler.jpg' },
         { id: 'sutlu_tatli', label: '🍮 Sütlü Tatlılar', background: 'linear-gradient(135deg, #F0E68C 0%, #DAA520 100%)', backgroundImage: './sütlütatlılar/saütlütatlılar.jpg' },
         { id: 'serbetli_tatli', label: '🍡 Şerbetli Tatlılar', background: 'linear-gradient(135deg, #DEB887 0%, #D2691E 100%)', backgroundImage: './serbetli_tatlilar/serbetli.jpg' },
         { id: 'baklavalar', label: '🥜 Baklavalar', background: 'linear-gradient(135deg, #D2A679 0%, #8B6914 100%)', backgroundImage: './kategorigörsel/baklava.jpg' },
         { id: 'sogukicecekler', label: '☕  Soğuk İçecekler', background: 'linear-gradient(135deg, #87CEFA 0%, #00BFFF 100%)', backgroundImage: './sogukicecekler/sogukicecekler.jpg' },
         { id: 'sıcakicecekler', label: '☕ Sıcak İçecekler', background: 'linear-gradient(135deg, #A0522D 0%, #8B4513 100%)', backgroundImage: './sıcakicecekler/sıcakicecekler.jpg' },
         { id: 'kurupastalar', label: '🍪 Kuru Pastalar', background: 'linear-gradient(135deg, #FDDAA3 0%, #DAA520 100%)', backgroundImage: './kurupastalar/kurupasta.jpg' },
-        { id: 'kahvalti', label: '📋 Kahvaltı Çeşitleri', background: 'linear-gradient(135deg, #D3D3D3 0%, #A9A9A9 100%)', backgroundImage: './kategorigörsel/kahvalti.jpg' ,}   
+        { id: 'kahvalti', label: '📋 Kahvaltı Çeşitleri', background: 'linear-gradient(135deg, #D3D3D3 0%, #A9A9A9 100%)', backgroundImage: './kahvalti/kahvalti.jpg' }, 
     ];   
     
     categories.forEach(category => {
