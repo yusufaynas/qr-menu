@@ -1,6 +1,7 @@
 import qrcode
 
-menu_url = "https://yusufaynas.github.io/qr-menu"
+# Netlify adresin
+menu_url = "https://yunusemrepastanes.netlify.app"
 
 qr = qrcode.QRCode(
     version=1,

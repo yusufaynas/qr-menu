@@ -6,7 +6,7 @@ const menuData = [
         name: "Kaşarlı Açma",
         category: "acmalar",
         price: "30 TL",
-        description: "Lezzetli kaşar peynirli açma",
+        description: "kaşar peynirli açma",
         images: ["./açmalar/kaşarlı.açma.jpg"]
     },
     {
@@ -22,7 +22,7 @@ const menuData = [
         name: "Zeytinli Açma",
         category: "acmalar",
         price: "30 TL",
-        description: "Sağlıklı zeytinli açma",
+        description: "zeytinli açma",
         images: ["./açmalar/zeytinli.açma.jpg"]
     },
     {
@@ -30,7 +30,7 @@ const menuData = [
         name: "Çikolatalı Açma",
         category: "acmalar",
         price: "30 TL",
-        description: "Tatlı çikolatalı açma",
+        description: "çikolatalı açma",
         images: ["./açmalar/çikolatalı.açma.jpg"]
     },
     {
@@ -54,7 +54,7 @@ const menuData = [
         name: "Taban Simit",
         category: "simitler",
         price: "20 TL",
-        description: "Bol tahini ile yapılmış taban simit",
+        description: " klasiktaban simit",
         images: ["./simitler/tabansimit.jpg"]
     },
     {
@@ -62,7 +62,7 @@ const menuData = [
         name: "Tereyeğalı Simit",
         category: "simitler",
         price: "30 TL",
-        description: "Tereyeğlı, lezzetli simit",
+        description: "Tereyeğlı  simit",
         images: ["./simitler/tereyagli.jpg"]
     },
     {
@@ -78,7 +78,7 @@ const menuData = [
         name: "Çedarlı Hamburger",
         category: "hamburgeler",
         price: "50 TL",
-        description: "Çedarlı peynirli lezzetli hamburger",
+        description: "Çedarlı peynirli,sosisli hamburger",
         images: ["./simitler/hamburgerler/çedarlı.jpg"]
     },
     {
@@ -86,7 +86,7 @@ const menuData = [
         name: "Gül Böreği",
         category: "borek",
         price: "60 TL",
-        description: "Otlu peynirli börek",
+        description: "Otlu peynirli gülböreği",
         images: ["./börekler/gülböreği.jpg"]
     },
     {id: 7, name: "Sakallı", category: "pogaca", price: "20 TL", description: "Lor peynirli maydonozlu poğaça", images: ["./poğaçalar/sakallı.jpg"]},
@@ -94,17 +94,17 @@ const menuData = [
 
 
     // ADET PASTALAR
-    {id: 10, name: "1 Kişilik Pasta", category: "pastalar", price: "200 TL", description: "sevgiliye özel pasta", images: ["./pastalar/1kisilik.jpg"]},
+    {id: 10, name: "1 Kişilik Pasta", category: "pastalar", price: "200 TL", description: "tek kişi için yaş pasta", images: ["./pastalar/1kisilik.jpg"]},
     {id: 11, name: "4 Kişilik Pasta", category: "pastalar", price: "500 TL", description: "Dört kişi için yaş pasta", images: ["./pastalar/4kisilik.jpg"]},
     {id: 12, name: "6 Kişilik Pasta", category: "pastalar", price: "600 TL", description: "Altı kişi için yaş pasta", images: ["./pastalar/6kisilik.jpg"]},
     {id: 13, name: "8 Kişilik Pasta", category: "pastalar", price: "700 TL", description: "Sekiz kişi için özel ve büyük pasta", images: ["./pastalar/8kisilik.jpg"]},
     {id: 14, name: "Rulo Pasta", category: "pastalar", price: "600 TL", description: "Rulo şekilde sarılmış özel pasta", images: ["./pastalar/rulopasta.jpg"]},
     {id: 18, name: "CEDRİC ANTEP FISTIĞI", category: "pasta", price: "200 TL", description: "antep fıstığı aromalı cedric", images: ["./pastalar/cedric.jpg"]},
-    { id:78, name: "Bisküvili Pasta", category: "pastalar", price: "200 TL", description: "Çikolata aromalı cedric", images: ["./pastalar/bisküvili.jpg"]},
-    { id:79, name: "Çilekli Pasta", category: "pastalar", price: "200 TL", description: "Çilek aromalı cedric", images: ["./pastalar/çilekli.jpg"]},
-    { id:80, name: "Lotuslu Pasta", category: "pastalar ", price: "200 TL", description: "lotus aromalı cedric", images: ["./pastalar/lotuslu.jpg"]},
-    { id:81, name: "Malaga", category: "pastalar", price: "200 TL", description: "karamel aromalı cedric", images: ["./pastalar/malaga.jpg"]},
-    { id:82, name: "Snıckers", category: "pastalar", price: "200 TL", description: "karamel aromalı cedric", images: ["./pastalar/snıckers.jpg"]},
+    { id:78, name: "Bisküvili Pasta", category: "pastalar", price: "200 TL", description: "klasik bisküvili pasta", images: ["./pastalar/bisküvili.jpg"]},
+    { id:79, name: "Çilekli Pasta", category: "pastalar", price: "200 TL", description: "Çilekli üçgen pasta", images: ["./pastalar/çilekli.jpg"]},
+    { id:80, name: "Lotuslu Pasta", category: "pastalar ", price: "200 TL", description: "lotuslu pasta", images: ["./pastalar/lotuslu.jpg"]},
+    { id:81, name: "Malaga", category: "pastalar", price: "200 TL", description: "yumuşak kakaolu pandispanya tabanı üzerine yerleştirilen bütün muzlar, yoğun pastacı kreması (veya krema) ve tamamını kaplayan çikolata ganajından oluşu", images: ["./pastalar/malaga.jpg"]},
+    { id:82, name: "Snıckers", category: "pastalar", price: "200 TL", description: "Çikolata kaplaması, karamel sosu, fıstık parçaları ve kremsi dolgu ile hazırlanmış özel pasta.", images: ["./pastalar/snıckers.jpg"]},
     // EKLER
     {id: 21, name: "Ekler - Klasik", category: "eklerler", price: "50 TL", description: "Siyah çikolatalı", images: [ 
         "./ekler/klasik.jpg"]},
@@ -126,7 +126,7 @@ const menuData = [
             name: "beyaz çikolatalı ekler",
             category: "eklerler",
             price: "50 TL",
-            description: "Kahve aromalı ekler",
+            description: "beyaz çikolatalı ekler",
             images: ["./ekler/beyaz.jpg"]
         },
         
@@ -162,19 +162,15 @@ const menuData = [
 
 
     // BÖREKLER
-    {id: 23, name: "Tepsi Böreği", category: "borek", price: "60 TL", description: "Patlıcan kıymalı, patatesli ve otlu peynirli", images: [
-        "./börekler/kıymalıkolböreği.jpg"]},
-    {id: 24, name: " kıymalı Kol Böreği", category: "borek", price: "60 TL", description: "Kıymalı", images: ["./börekler/kıymalıkolböreği.jpg"]},
-{
-    id: 40,
-    name: "peynirli Kol Böreği",
-category: "borek",
-price: "60 TL",description: "peynirli",
-images: ["./börekler/peynirlikolböreği.jpg"]  
-},
+    {id: 24, name: "Kıymalı Kol Böreği", category: "borek", price: "60 TL", description: "İnce yufka katları arasında özenle kavrulmuş kıyma, soğan ve baharatlarla hazırlanmış geleneksel lezzet.", images: ["./börekler/kıymalıkolböreği.jpg"]},
+    {id: 23, name: "Tepsi Böreği", category: "borek", price: "60 TL", description: "özel el açmasıyla hazırlanmış otlu peynirli,patatesli,patlıcan kıymalı çeşitleriyle tepsi böreği", images: [
+        "./börekler/tepsi.jpg"]},
+    {id: 25, name: "peynirli kol böreği", category: "borek", price: "60 TL", description: "İnce açılmış yufkaların arasına bol beyaz peynir ve maydanoz konularak hazırlanır, çıtır çıtır pişirilir.", images: ["./börekler/peynirlikolböreği.jpg"]},
+
+{ id: 75, name: "sigara böreği", category: "borek", price: "60 TL", description: "patatesli ve otlu peynirli çeşitleriyle sigara böreği", images: ["./börekler/sigara.jpg"]},
 
     // PIZZALAR
-    {id: 25, name: "Yuvarlak Pizza", category: "pizza", price: "150 TL", description: "Klasik yuvarlak şekilde ve lezzetli", images: ["./pizzalar/yuvarlak.jpg"]},
+    {id: 25, name: "Yuvarlak Pizza", category: "pizza", price: "150 TL", description: "Klasik yuvarlak şekilde karışık ve lezzetli pizza", images: ["./pizzalar/yuvarlak.jpg"]},
 {
     id: 41,
     name: "sucuklu dilim Pizza",
@@ -194,19 +190,19 @@ images: ["./pizzalar/karışık.jpg"]
 },
 
     // POĞAÇALAR
-    {id: 26, name: "kaşarlı Poğaça", category: "pogaca", price: "20 TL", description: "kaşarlı", images: ["./poğaçalar/kaşarlı.jpg"]},
-    {id: 27, name: "patatesli Poğaça", category: "pogaca", price: "20 TL", description: "patatesli", images: ["./poğaçalar/patatesli.jpg"]},
+    {id: 26, name: "kaşarlı Poğaça", category: "pogaca", price: "20 TL", description: "kaşarlı poğaça", images: ["./poğaçalar/kaşarlı.jpg"]},
+    {id: 27, name: "patatesli Poğaça", category: "pogaca", price: "20 TL", description: "patatesli poğaça", images: ["./poğaçalar/patatesli.jpg"]},
 {
     id: 43,
 name: "peynirli Poğaça",
 category: "pogaca",
-price: "20 TL",description: "peynirli",
+price: "20 TL",description: "peynirli poğaça",
 images: ["./poğaçalar/peynirli.jpg"]
 },
 
 
     // KASE TATLILAR
-    {id: 28, name: "Sütlaç", category: "kase_tatli", price: "90 TL", description: "Geleneksel, kaynamış sütlaç", images: ["./kasetatlılar/sütlaç.jpg"]},
+    {id: 28, name: "Sütlaç", category: "kase_tatli", price: "90 TL", description: "Süt, pirinç ve şekerle hazırlanıp fırında üzeri hafif kızartılan geleneksel lezzet.", images: ["./kasetatlılar/sütlaç.jpg"]},
     {id: 29, name: "Lotus", category: "kase_tatli", price: "100 TL", description: "Lotuslu muhallebi ve çikolatalı tatlı", images: ["./kasetatlılar/lotus.jpg"]},
 {    id: 44,
 name: "Supangle",
@@ -244,21 +240,21 @@ images: ["./kasetatlılar/kadayıflımuhallebi.jpg"]
 name: "Alaçatı Muallabesi",
 category: "kase_tatli",
 price: "100 TL",
-description: "Şerbetli alaçatı muallabesi kase tatlı",
+description: "Alaçatı Muhallebisi; taze süt, vanilya ve hafif şekerle hazırlanmış, üzerine badem ve tarçın serpilerek sunulan yöresel bir tatlıdır. Hafif kıvamı ve ferah aromasıyla Ege’nin en sevilen sütlü tatlılarından biridir",
 images: ["./kasetatlılar/alaçatı.jpg"]
 },
 
 
     // TATLILAR - SÜTLÜ TATLILAR
-    {id: 28, name: "Sütlaç", category: "sutlu_tatli", price: "90 TL", description: "Geleneksel, kaynamış sütlaç", images: ["./kasetatlılar/sütlaç.jpg"]},
-    {id: 31, name: "Karamelli Trileçe", category: "sutlu_tatli", price: "95 TL", description: "Karamelli ve frambuazlı trileçe tatlısı", images: ["./sütlütatlılar/karamellitrileçe.jpg"]},
-    {id: 53, name: "Frambuazlı Trileçe", category: "sutlu_tatli", price: "95 TL", description: "Frambuazlı üç katmanlı lezzetli trileçe", images: ["./sütlütatlılar/frambuazlıtrileçe.jpg"]},
-    {id: 55, name: "Soğuk Baklava", category: "sutlu_tatli", price: "100 TL", description: "Şerbetli, sütlü soğuk baklava tatlı", images: ["./sütlütatlılar/soğukbaklava.jpg"]},
+    {id: 28, name: "Sütlaç", category: "sutlu_tatli", price: "90 TL", description: "Süt, pirinç ve şekerle hazırlanıp fırında üzeri hafif kızartılan geleneksel lezzet.", images: ["./kasetatlılar/sütlaç.jpg"]},
+    {id: 31, name: "Karamelli Trileçe", category: "sutlu_tatli", price: "95 TL", description: "Karamelli trileçe", images: ["./sütlütatlılar/karamellitrileçe.jpg"]},
+    {id: 53, name: "Frambuazlı Trileçe", category: "sutlu_tatli", price: "95 TL", description: "Frambuazlı  lezzetli trileçe", images: ["./sütlütatlılar/frambuazlıtrileçe.jpg"]},
+    {id: 55, name: "Soğuk Baklava", category: "sutlu_tatli", price: "100 TL", description: "Şerbetli, sütlü, cevbizli soğuk baklava tatlı", images: ["./sütlütatlılar/soğukbaklava.jpg"]},
     {id: 56, name: "Süt Dilimi", category: "sutlu_tatli", price: "85 TL", description: "Lezzetli süt dolgulu dilim tatlı", images: ["./sütlütatlılar/sütdilimi.jpg"]},    {id: 57, name: "Kazandibi", category: "sutlu_tatli", price: "100 TL", description: "Tat kakaolu kazandibi tatlı", images: ["./kasetatlılar/kazandibi.jpg"]},
-    {id: 58, name: "Keşkül", category: "sutlu_tatli", price: "100 TL", description: "Pistachio ve fındıklı keşkül tatlı", images: ["./kasetatlılar/Keşkül.jpg"]},
+    {id: 58, name: "Keşkül", category: "sutlu_tatli", price: "100 TL", description: "Süt, pirinç unu ve bademle hazırlanmış, hafif ve ferah bir sütlü tatlı. ", images: ["./kasetatlılar/Keşkül.jpg"]},
     {id: 59, name: "Magnolya", category: "sutlu_tatli", price: "100 TL", description: "Çilekli ve çikolatalı magnolya tatlı", images: ["./kasetatlılar/magnolya.jpg"]},
     {id: 60, name: "Kadayıflı Muhallebi", category: "sutlu_tatli", price: "100 TL", description: "Kadayıflı ve muhallebi kase tatlı", images: ["./kasetatlılar/kadayıflımuhallebi.jpg"]},
-    {id: 61, name: "Alaçatı Muallabesi", category: "sutlu_tatli", price: "100 TL", description: "Şerbetli alaçatı muallabesi kase tatlı", images: ["./kasetatlılar/alaçatı.jpg"]},
+    {id: 61, name: "Alaçatı Muallabesi", category: "sutlu_tatli", price: "100 TL", description: "Alaçatı Muhallebisi; taze süt, vanilya ve hafif şekerle hazırlanmış, üzerine badem ve tarçın serpilerek sunulan yöresel bir tatlıdır. Hafif kıvamı ve ferah aromasıyla Ege’nin en sevilen sütlü tatlılarından biridir", images: ["./kasetatlılar/alaçatı.jpg"]},
     {id: 62, name: "Kırmızı Kadife", category: "sutlu_tatli", price: "100 TL", description: "Kırmızı kadife muhallebi ve çikolatalı sos ile hazırlanan kase tatlı", images: ["./kasetatlılar/kadife.jpg"]},
     {id: 63, name: "Senatör", category: "sutlu_tatli", price: "100 TL", description: "Antep fıstıklı muhallebi ve çikolatalı sos ile hazırlanan senatör tatlı", images: ["./kasetatlılar/senatör.jpg"]},
     {id: 64, name: "Kazandibi", category: "sutlu_tatli", price: "100 TL", description: "Kazandibi tatlı", images: ["./kasetatlılar/kazandibi.jpg"]},
@@ -266,7 +262,7 @@ images: ["./kasetatlılar/alaçatı.jpg"]
 
     // ŞERBETLİ TATLILAR
     {id: 32, name: "Cevizli Baklava", category: "serbetli_tatli", price: "150 TL", description: "Cevizli, şerbetli baklavalar", images: ["./serbetli_tatlilar/cevizli.jpg"]},
-{id: 33, name: "Soğuk Baklava", category: "serbetli_tatli", price: "160 TL", description: "Şerbetli, sütlü tatlı", images: ["./serbetli_tatlilar/sogukbaklava.jpg"]},
+{id: 33, name: "Soğuk Baklava", category: "serbetli_tatli", price: "160 TL", description: "cevizli soğuk baklava", images: ["./serbetli_tatlilar/sogukbaklava.jpg"]},
 {id: 49, name: "Şekerpare", category: "serbetli_tatli", price: "180 TL", description: "Şekerpare", images: ["./serbetli_tatlilar/sekerpare.jpg"]},
 {id: 50, name: "Kalburabastı", category: "serbetli_tatli", price: "170 TL", description: "Kalburabastı", images: ["./serbetli_tatlilar/kalburabasti.jpg"]},
 
@@ -276,46 +272,46 @@ images: ["./kasetatlılar/alaçatı.jpg"]
 
 
     // İÇECEKLER
-    {id: 34, name: "Fanta", category: "sogukicecekler", price: "60 TL", description: "", images: ["./sogukicecekler/fanta.jpg"]},
-    {id: 35, name: "Fuse tea", category: "sogukicecekler", price: "20 TL", description: "", images: ["./sogukicecekler/fusetea.jpg"]},
-    {id: 36, name: "kola", category: "sogukicecekler", price: "25 TL", description: "", images: ["./sogukicecekler/kola.jpg"]},
+    {id: 34, name: "Fanta", category: "sogukicecekler", price: "60 TL", description: "soğuk fanta", images: ["./sogukicecekler/fanta.jpg"]},
+    {id: 35, name: "Fuse tea", category: "sogukicecekler", price: "20 TL", description: "çilek karpuzlu,mango ananaslı,şeftalili fuse tea", images: ["./sogukicecekler/fusetea.jpg"]},
+    {id: 36, name: "kola", category: "sogukicecekler", price: "25 TL", description: "soğuk kola", images: ["./sogukicecekler/kola.jpg"]},
     {id: 37, name: "Ayran", category: "sogukicecekler", price: " thirty-five TL", description: "Taze, soğuk ayran", images: ["./sogukicecekler/ayran.jpg"]},
     {id: 38, name: "Sade Soda", category: "sogukicecekler", price: "15 TL", description: "Serinletici soda", images: ["./sogukicecekler/sadesoda.jpg"]},
     {id: 39, name: "Limonata", category: "sogukicecekler", price: "30 TL", description: "Ev yapımı taze limonata", images: ["./sogukicecekler/limonata.jpg"]},
     {id: 40, name: "Meyve Suyu", category: "sogukicecekler", price: "25 TL", description: "Çeşitli meyve aromalı meyve suyu", images: ["./sogukicecekler/meyvasuyu.jpg"]},
-    {id: 41, name: "limonlu soda", category: "sogukicecekler", price: "30 TL", description: "", images: ["./sogukicecekler/limonlusoda.jpg"]},
-    {id: 42, name: "Portakallı Soda", category: "sogukicecekler", price: "30 TL", description: "", images: ["./sogukicecekler/portakallısoda.jpg"]},
-    {id: 43, name: "Çilek Karpuzlu Soda", category: "sogukicecekler", price: "30 TL", description: "", images: ["./sogukicecekler/çilekkarpuzlusoda.jpg"]},
-    {id: 44, name: "elmalı Soda", category: "sogukicecekler", price: "30 TL", description: "", images: ["./sogukicecekler/elmalısoda.jpg"]},
+    {id: 41, name: "limonlu soda", category: "sogukicecekler", price: "30 TL", description: "limonlu soda", images: ["./sogukicecekler/limonlusoda.jpg"]},
+    {id: 42, name: "Portakallı Soda", category: "sogukicecekler", price: "30 TL", description: "Portakallı soda", images: ["./sogukicecekler/portakallısoda.jpg"]},
+    {id: 43, name: "Çilek Karpuzlu Soda", category: "sogukicecekler", price: "30 TL", description: "Çilek karpuzlu soda", images: ["./sogukicecekler/çilekkarpuzlusoda.jpg"]},
+    {id: 44, name: "elmalı Soda", category: "sogukicecekler", price: "30 TL", description: "Elmalı soda", images: ["./sogukicecekler/elmalısoda.jpg"]},
 
     // Sıcak İçecekler
     {id: 45, name: "Türk Kahvesi", category: "sıcakicecekler", price: "30 TL", description: "Geleneksel Türk kahvesi", images: ["./sıcakicecekler/turkkahvesi.jpg"]},
     {id: 46, name: "Çay", category: "sıcakicecekler", price: "30 TL", description: "Taze kaynatılmış çay", images: ["./sıcakicecekler/cay.jpg"]},
-    {id: 47, name: "adacayı", category: "sıcakicecekler", price: "30 TL", description: "", images: ["./sıcakicecekler/adacayı.jpg"]},
-    {id: 48, name: "filtre kahve", category: "sıcakicecekler", price: "30 TL", description: "", images: ["./sıcakicecekler/filtrekahve.jpg"]},
-    {id: 49, name: "ıhlamur", category: "sıcakicecekler", price: "30 TL", description: "", images: ["./sıcakicecekler/ıhlamur.jpg"]},
-    {id: 50, name: "nane limon", category: "sıcakicecekler", price: "30 TL", description: "", images: ["./sıcakicecekler/nanelimon.jpg"]},
-    {id: 51, name: "papatya çayı", category: "sıcakicecekler", price: "30 TL", description: "", images: ["./sıcakicecekler/papatya.jpg"]},
-    {id: 52, name: "salep", category: "sıcakicecekler", price: "30 TL", description: "", images: ["./sıcakicecekler/salep.jpg"]},
-    {id: 53, name: "sıcak çikolata", category: "sıcakicecekler", price: "30 TL", description: "", images: ["./sıcakicecekler/sicakcikolata.jpg"]},
+    {id: 47, name: "adacayı", category: "sıcakicecekler", price: "30 TL", description: "Kurutulmuş ada yapraklarından demlenerek hazırlanan, ferah aromalı geleneksel içecek.", images: ["./sıcakicecekler/adacayı.jpg"]},
+    {id: 48, name: "filtre kahve", category: "sıcakicecekler", price: "30 TL", description: "Filtre kahve", images: ["./sıcakicecekler/filtrekahve.jpg"]},
+    {id: 49, name: "ıhlamur", category: "sıcakicecekler", price: "30 TL", description: "Ihlamur çayı", images: ["./sıcakicecekler/ıhlamur.jpg"]},
+    {id: 50, name: "nane limon", category: "sıcakicecekler", price: "30 TL", description: "Nane limon çayı", images: ["./sıcakicecekler/nanelimon.jpg"]},
+    {id: 51, name: "papatya çayı", category: "sıcakicecekler", price: "30 TL", description: "Papatya çayı", images: ["./sıcakicecekler/papatya.jpg"]},
+    {id: 52, name: "salep", category: "sıcakicecekler", price: "30 TL", description: " klasik Salep ", images: ["./sıcakicecekler/salep.jpg"]},
+    {id: 53, name: "sıcak çikolata", category: "sıcakicecekler", price: "30 TL", description: "Sıcak çikolata", images: ["./sıcakicecekler/sicakcikolata.jpg"]},
 
     // kurapasta 
     {id: 54, name: "Un Kurabiyesi", category: "kurupastalar", price: "120 TL", description: "Ağızda dağılan klasik un kurabiyesi", images: ["./kurupastalar/unlu.jpg"]},
     {id: 55, name: "Tuzlu Kurabiye", category: "kurupastalar", price: "110 TL", description: "Çay saatine uygun susamlı tuzlu kurabiye", images: ["./kurupastalar/tuzlu.jpg"]},
     {   id: 56, name: "leblebili Kurabiyesi", category: "kurupastalar", price: "130 TL", description: "Fındık aromalı çıtır kurabiye", images: ["./kurupastalar/leblebili.jpg"]},
-    {   id: 57, name: "dereotlu kurabiye", category: "kurupastalar", price: "130 TL", description: "", images: ["./kurupastalar/dereotlu.jpg"]},
-    {   id: 58, name: "elmalı Kurabiye", category: "kurupastalar", price: "130 TL", description: "", images: ["./kurupastalar/elmalı.jpg"]},
-    {   id: 59, name: "leblebili kurabiye", category: "kurupastalar", price: "130 TL", description: "", images: ["./kurupastalar/leblebili.jpg"]},
-    {   id: 60, name: "damla çikolatalı kurabiye", category: "kurupastalar", price: "130 TL", description: "", images: ["./kurupastalar/damla.jpg"]},
-    {   id: 61, name: "kakaolu kurabiye", category: "kurupastalar", price: "130 TL", description: "", images: ["./kurupastalar/kakaolu.jpg"]},
-    {   id: 62, name: "tahinli kurabiye", category: "kurupastalar", price: "130 TL", description: "", images: ["./kurupastalar/tahinli.jpg"]},
-    {   id: 63, name: "çubuklu kurabiye", category: "kurupastalar", price: "130 TL", description: "", images: ["./kurupastalar/çubuklu.jpg"]},
-    {   id: 64, name: "Simit kurabiye", category: "kurupastalar", price: "130 TL", description: "", images: ["./kurupastalar/simitkuru.jpg"]},
+    {   id: 57, name: "dereotlu kurabiye", category: "kurupastalar", price: "130 TL", description: "Dereotlu kurabiye", images: ["./kurupastalar/dereotlu.jpg"]},
+    {   id: 58, name: "elmalı Kurabiye", category: "kurupastalar", price: "130 TL", description: "Elmalı kurabiye", images: ["./kurupastalar/elmalı.jpg"]},
+    {   id: 59, name: "leblebili kurabiye", category: "kurupastalar", price: "130 TL", description: "Leblebili kurabiye", images: ["./kurupastalar/leblebili.jpg"]},
+    {   id: 60, name: "damla çikolatalı kurabiye", category: "kurupastalar", price: "130 TL", description: "Damla çikolatalı kurabiye", images: ["./kurupastalar/damla.jpg"]},
+    {   id: 61, name: "kakaolu kurabiye", category: "kurupastalar", price: "130 TL", description: "Kakaolu kurabiye", images: ["./kurupastalar/kakaolu.jpg"]},
+    {   id: 62, name: "tahinli kurabiye", category: "kurupastalar", price: "130 TL", description: "Tahinli kurabiye", images: ["./kurupastalar/tahinli.jpg"]},
+    {   id: 63, name: "çubuklu kurabiye", category: "kurupastalar", price: "130 TL", description: "Çubuklu kurabiye", images: ["./kurupastalar/çubuklu.jpg"]},
+    {   id: 64, name: "Simit kurabiye", category: "kurupastalar", price: "130 TL", description: "Simit kurabiye", images: ["./kurupastalar/simitkuru.jpg"]},
 
     //KAHVALTI ÇEŞİTLERİ
-    {   id: 65, name: "Kahvaltı Tabağı", category: "kahvalti", price: "150 TL", description: "Zengin kahvaltı tabağı", images: ["./kahvalti/kahvaltıtabak.jpg"]},
+    {   id: 65, name: "Kahvaltı Tabağı", category: "kahvalti", price: "150 TL", description: "yumurta,simit,zeytin,çay,tulum peyniri kahvaltı tabağı", images: ["./kahvalti/kahvaltıtabak.jpg"]},
     {   id: 66, name: "Serpme Kahvaltı", category: "kahvalti", price: "200 TL", description: "Çeşitli peynirler, zeytinler, reçeller ve taze ekmeklerle dolu serpme kahvaltı", images: ["./kahvalti/serpme.jpg"]},
-    {   id: 67, name: "Söğüş", category: "kahvalti", price: "150 TL", description: "Taze sıkılmış sogus", images: ["./kahvalti/söğüş.jpg"]},
+    {   id: 67, name: "Söğüş", category: "kahvalti", price: "150 TL", description: "Taze s sogus", images: ["./kahvalti/söğüş.jpg"]},
     {   id: 68, name: "zeytin tabağı", category: "kahvalti", price: "100 TL", description: "çeşitli zeytinler ve taze ekmeklerle dolu zeytin tabağı", images: ["./kahvalti/zeytin.jpg"]},
     {   id: 69, name:"tulum peyniri", category: "kahvalti", price: "120 TL", description: "taze tulum peyniri ve taze ekmeklerle dolu tulum peyniri tabağı", images: ["./kahvalti/tulum.jpg"]},
     {   id: 70, name:"reçel", category: "kahvalti", price: "80 TL", description: "taze reçel ve taze ekmeklerle dolu reçel tabağı", images: ["./kahvalti/reçel.jpg"]},
@@ -324,10 +320,10 @@ images: ["./kasetatlılar/alaçatı.jpg"]
     {   id:73, name:"haşlanmış yumurta", category: "kahvalti", price: "50 TL", description: "taze haşlanmış yumurta ve taze ekmeklerle dolu haşlanmış yumurta tabağı", images: ["./kahvalti/yumurta.jpg"]},
  
 //Cheseecake
-    {   id: 74, name:"San Sebastian", category: "CheeseCake", price: "200 TL", description: "taze cheesecake ve taze ekmeklerle dolu cheesecake tabağı", images: ["./Chesecake/sebastian.jpg"]},
-    {   id: 75, name:"Frambuazlı Chesecake", category: "CheeseCake", price: "200 TL", description: "taze cheesecake ve taze ekmeklerle dolu cheesecake tabağı", images: ["./Chesecake/frambuaz.jpg"]},
-    {   id: 76, name:"Limonlu Chesecake", category: "CheeseCake", price: "200 TL", description: "taze cheesecake ve taze ekmeklerle dolu cheesecake tabağı", images: ["./Chesecake/limon.jpg"]},
-    {   id: 77, name:"lotuslu Chesecake", category: "CheeseCake", price: "200 TL", description: "taze cheesecake ve taze ekmeklerle dolu cheesecake tabağı", images: ["./Chesecake/lotuslu.jpg"]},
+    {   id: 74, name:"San Sebastian", category: "CheeseCake", price: "200 TL", description: "Yoğun krem peynir tadı, vanilya aroması ve hafif yanık karamel dokusuyla benzersiz bir deneyim.", images: ["./Chesecake/sebastian.jpg"]},
+    {   id: 75, name:"Frambuazlı Chesecake", category: "CheeseCake", price: "200 TL", description: "frambuazlı cheesecake", images: ["./Chesecake/frambuaz.jpg"]},
+    {   id: 76, name:"Limonlu Chesecake", category: "CheeseCake", price: "200 TL", description: "limonlu cheesecake", images: ["./Chesecake/limon.jpg"]},
+    {   id: 77, name:"lotuslu Chesecake", category: "CheeseCake", price: "200 TL", description: "lotuslu cheesecake", images: ["./Chesecake/lotuslu.jpg"]},
 ]; 
 
 // DOM Elementleri
@@ -351,7 +347,7 @@ function renderMenu() {
     const categories = [
         { id: 'simitler', label: '🥯 Simitler', background: 'linear-gradient(135deg, #D2B48C 0%, #8B6F47 100%)', backgroundImage: './simitler/çıtırsimit.jpg' },
         { id: 'acmalar', label: '🥯 Açmalar', background: 'linear-gradient(135deg, #FFD700 0%, #DAA520 100%)', backgroundImage: './açmalar/sade.açma.jpg' },
-        { id: 'hamburgeler', label: '🛙 Hamburgeler', background: 'linear-gradient(135deg, #FF6347 0%, #8B4513 100%)', backgroundImage: './simitler/hamburgerler/hamburger.jpg' },
+        { id: 'hamburgeler', label: '🍔 Hamburgeler', background: 'linear-gradient(135deg, #FF6347 0%, #8B4513 100%)', backgroundImage: './simitler/hamburgerler/hamburger.jpg' },
         { id: 'borek', label: '🌯 Börekler', background: 'linear-gradient(135deg, #CD853F 0%, #8B4513 100%)', backgroundImage: './börekler/kıymalıkolböreği.jpg' },
         { id: 'pizza', label: '🍕 Pizzalar', background: 'linear-gradient(135deg, #FF4500 0%, #DC143C 100%)', backgroundImage: './pizzalar/pizza.jpg' },
         { id: 'pogaca', label: '🧅 Poğaçalar', background: 'linear-gradient(135deg, #F4A460 0%, #D2691E 100%)', backgroundImage: './poğaçalar/poagaca.jpg' },
