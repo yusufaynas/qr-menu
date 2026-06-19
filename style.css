@@ -664,13 +664,14 @@ header h1 {
         height: 150px;
     }
   /* Footer */
+/* Footer */
 .footer {
     width: 100%;             /* tüm genişliği kaplar */
     text-align: center;      /* yazıyı ortalar */
     padding: 20px;
-    background: #1a1a1a;     /* arka plan */
-    color: #fff;             /* yazı rengi */
-    font-size: 16px;
+    background: #1a1a1a;     /* arka plan rengi */
+    color: #FFD700;          /* yazı rengi (altın sarısı) */
+    font-size: 18px;
     margin-top: 40px;        /* içerikten sonra boşluk */
     border-top: 2px solid #27AE60;
 }
@@ -687,48 +688,12 @@ header h1 {
 }
 
 /* Responsive */
-@media (max-width: 768px) {
-    header h1 {
-        font-size: 24px;
-    }
-
-    .logo {
-        font-size: 48px;
-    }
-
-    .menu-items {
-        grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
-        gap: 15px;
-    }
-
-    .filter-buttons {
-        gap: 8px;
-    }
-
-    .filter-btn {
-        padding: 8px 15px;
-        font-size: 12px;
-    }
-
-    .modal-content {
-        width: 95%;
-        padding: 20px;
-    }
-}
-
 @media (max-width: 480px) {
-    .menu-items {
-        grid-template-columns: 1fr;
-    }
-
-    .menu-item-image {
-        height: 150px;
-    }
-
     .footer {
         font-size: 14px;     /* mobilde yazı biraz küçülür */
         padding: 15px;
     }
 }
+
 
 }
